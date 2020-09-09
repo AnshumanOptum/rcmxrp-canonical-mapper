@@ -1,0 +1,50 @@
+{
+	"namespace": "com.optum.micro.de.rxclaim.rcmxrpcanonicalvalue",
+	"type": "record",
+	"name": "rcmxrpCanonicalValue",
+	"risklevel": "0",
+	"fields": [{
+		"name": "EnrolleeIndividualIdentifier",
+		"type": ["null", "string"],
+		"desc": "EnrolleeIndividualIdentifier",
+		"default": null,
+		"risklevel": "0"
+		},
+    {
+		"name": "EnrolleeIndividualCrossReferenceListName",
+		"type": ["null", "string"],
+		"desc": "Enrollee Individual CrossReference List Name",
+		"default": null,
+		"risklevel": "0"
+		},
+		{
+			"name": "EnrolleeIndividualReferenceIdentifier",
+			"type": ["null", "int"],
+			"desc": "Enrollee Individual Reference Identifier",
+			"default": null,
+			"risklevel": "0"
+		},
+    {
+			"name": "EnrolleeIndividualReferenceCreateUserIdentifier",
+			"type": ["null", "string"],
+			"desc": "Enrollee Individual Reference Create User Identifier" ,
+			"default": null,
+			"risklevel": "0"
+		},
+    {
+			"name": "EnrolleeIndividualReferenceCreateDate",
+			"type": ["null", "string"],
+			"desc": "Enrollee Individual Reference Create Date",
+			"default": null,
+			"risklevel": "0"
+		},
+    {
+			"name": "EnrolleeIndividualReferenceCreateTime",
+			"type": ["null", "int"],
+			"desc": "Enrollee Individual Reference Create Time",
+			"default": null,
+			"risklevel": "0"
+		}
+
+	]
+}

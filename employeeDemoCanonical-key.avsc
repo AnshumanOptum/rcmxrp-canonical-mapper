@@ -1,0 +1,15 @@
+{
+	"namespace": "com.optum.micro.de.rxclaim.rcmxrpcanonicalkey",
+	"type": "record",
+	"name": "rcmxrpCanonicalKey",
+	"risklevel": "0",
+	"fields": [{
+			"name": "EnrolleeIndividualIdentifier",
+			"type": ["null", "string"],
+			"desc": "EnrolleeIndividualIdentifier",
+			"default": null,
+			"risklevel": "0"
+		}
+
+	]
+}
